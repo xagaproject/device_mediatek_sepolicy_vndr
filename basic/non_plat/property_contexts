@@ -418,3 +418,6 @@ persist.vendor.radio.meid      u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.meid             u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.sno              u:object_r:vendor_sno_prop:s0
 ro.vendor.oem.psno             u:object_r:vendor_sno_prop:s0
+
+# Power
+vendor.mediatek.powerhal.    u:object_r:vendor_power_prop:s0
