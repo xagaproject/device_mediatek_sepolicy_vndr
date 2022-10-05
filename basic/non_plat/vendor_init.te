@@ -165,3 +165,6 @@ set_prop(vendor_init, vendor_mtk_xfrm_support_prop)
 
 allow vendor_init proc_sched:file rw_file_perms;
 allow vendor_init proc_dirty:file rw_file_perms;
+
+# Power
+set_prop(vendor_init, vendor_power_prop)
