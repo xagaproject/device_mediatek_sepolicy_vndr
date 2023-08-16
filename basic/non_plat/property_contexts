@@ -284,8 +284,8 @@ vendor.voicerecognize.noDL     u:object_r:vendor_mtk_voicerecgnize_prop:s0
 ro.vendor.mtk.bt_sap_enable u:object_r:vendor_mtk_bt_sap_enable_prop:s0
 
 # powerhal config
-persist.vendor.powerhal. u:object_r:vendor_mtk_powerhal_prop:s0
-vendor.powerhal.         u:object_r:vendor_mtk_powerhal_prop:s0
+persist.vendor.powerhal. u:object_r:vendor_power_prop:s0
+vendor.powerhal.         u:object_r:vendor_power_prop:s0
 vendor.powerhal.gpu.     u:object_r:vendor_mtk_powerhal_gpu_prop:s0
 
 # MTK Wifi wlan_assistant property
@@ -418,6 +418,3 @@ persist.vendor.radio.meid      u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.meid             u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.sno              u:object_r:vendor_sno_prop:s0
 ro.vendor.oem.psno             u:object_r:vendor_sno_prop:s0
-
-# Power
-vendor.mediatek.powerhal.    u:object_r:vendor_power_prop:s0
