@@ -235,6 +235,8 @@ vendor.mtkcam.                        u:object_r:vendor_mtk_camera_prop:s0
 vendor.camera.                        u:object_r:vendor_mtk_camera_prop:s0
 persist.vendor.camera.                u:object_r:vendor_mtk_camera_prop:s0
 ro.boot.camera.                       u:object_r:vendor_mtk_camera_prop:s0
+ro.mtk_cam_dualzoom_support           u:object_r:vendor_mtk_camera_prop:s0
+ro.mtk_cam_stereo_camera_support      u:object_r:vendor_mtk_camera_prop:s0
 
 vendor.debug.gallery.loglevel u:object_r:vendor_mtk_gallery_prop:s0
 vendor.gallery.log.enable     u:object_r:vendor_mtk_gallery_prop:s0
