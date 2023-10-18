@@ -291,6 +291,8 @@ ro.vendor.mtk_tb_hdmi u:object_r:vendor_mtk_default_prop:s0
 
 ro.vendor.sim_me_lock_mode u:object_r:vendor_mtk_default_prop:s0
 
+ro.mtk_key_manager_support u:object_r:vendor_mtk_default_prop:s0
+
 # MTK CAM Security property
 ro.vendor.mtk_cam_security u:object_r:vendor_mtk_cam_security_prop:s0
 
