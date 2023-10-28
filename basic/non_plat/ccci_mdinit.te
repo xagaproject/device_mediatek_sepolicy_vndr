@@ -167,3 +167,5 @@ allow ccci_mdinit proc_version:file r_file_perms;
 allow ccci_mdinit mcf_ota_file:dir { getattr search };
 allow ccci_mdinit mcf_ota_file:file rw_file_perms;
 
+allow ccci_mdinit mnt_vendor_file:dir { create read write open getattr setattr add_name };
+allow ccci_mdinit mnt_vendor_file:file { create read write open getattr setattr };
